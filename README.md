@@ -1,4 +1,4 @@
-[![Tests](https://github.com/KhAA84/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/sabkaryan/python-core-homework/actions/workflows/python-app.yml)
+[![Tests](https://github.com/KhAA84/python-core-homework/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/KhAA84/python-core-homework/actions/workflows/python-app.yml)
 
 # Настройка Github репозитория
 
@@ -8,7 +8,7 @@
 
 ### Включить Actions в своём форке
 
-<img width="1377" alt="Screenshot 2022-01-12 at 17 13 36" src="https://user-images.githubusercontent.com/1016430/149178275-123c3a73-27c8-48af-afaa-066a1a3c634c.png">
+<img width="1377" alt="Screenshot 2022-01-12 at 17 13 36" src="https://user-images.githubusercontgirent.com/1016430/149178275-123c3a73-27c8-48af-afaa-066a1a3c634c.png">
 
 1. Перейти на гитхабе в форкнутый репозиторий (ссылка
    вида `https://github.com/ваше_имяпользователя/python-core-homework`)
