@@ -4,4 +4,10 @@ def build_roles_tree(mapping):
     :return: дерево ролей
     """
     # put your code here
-    pass
+    categories_list = []
+    for categoryId in mapping['categoryIdsSorted']:
+        category = []
+        for roleId in mapping['categories'][categoryId]['roleIds']:
+            category += [{'id': roleId, 'text': mapping['roles'][roleId]['name']}]
+        categories_list += [{'id': 'category-' + categoryId, 'text': mapping['categories'][categoryId]['name'], 'items': category}]
+    return {"categories": categories_list}
